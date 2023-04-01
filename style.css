@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+a.active {
+  font-weight: bold;
+  background-color: darkred;
+  color: #fff;
+}
+
+a:hover {
+  background-color: darkred;
+}
+
+.welcome {
+  background-image: url('https://openupthecloud.com/wp-content/uploads/2017/07/ilya-pavlov-87438-760x507.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 200px;
+  padding-top: 300px;
+  /* opacity: 0.9; */
+ 
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.text-block h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+.intro-container{
+  background-color: rgb(245, 235, 220);
+  padding: 100px;
+}
+
+.about-me{
+  color: rgb(13, 110, 78);
+  font-weight: bold;
+  
+}
+
+.projects > :nth-child(odd) {
+  background-color: black;
+  color: white;
+  padding: 100px;
+}
+.projects > :nth-child(even) {
+  background-color:  rgb(245, 235, 220);
+  color: black;
+  padding: 100px;
+}
+.contact{
+  padding: 10px;
+  background-color: rgb(13, 110, 78);
+}
