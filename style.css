@@ -47,9 +47,9 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  padding: 200px;
-  padding-top: 300px;
+
+  padding: 250px;
+  padding-bottom: 300px;
   /* opacity: 0.9; */
  
 }
@@ -73,6 +73,10 @@ a:hover {
 .intro-container{
   background-color: rgb(245, 235, 220);
   padding: 100px;
+}
+
+.text-info{
+  align-items: center;
 }
 
 .about-me{
